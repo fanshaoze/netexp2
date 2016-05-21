@@ -121,6 +121,8 @@ void timeoutHandler()
 //由于发送数据时，第一个字节（序列号）为 0（ ASCII）时发送失败，因此加一了，此处需要减一还原
 // Parameter: char c
 //************************************
+
+
 void ackHandler(char c)
 {
 	int i;
